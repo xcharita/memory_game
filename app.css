@@ -115,6 +115,7 @@ h1 {
     cursor: pointer;
 }
 
+
 .timer {
     position: absolute;
     font-family: monospace;
@@ -126,13 +127,26 @@ h1 {
     margin: inherit;  
 }
 
-.texttimer {
-    position: absolute;
+
+.start-button {
+    
     font-family: monospace;
     font-size: 25px;
     display: flex;
     text-align: center;
-    left: 200px;
+    left: 400px;
+    width: 200px;
+    margin: inherit; 
+    
+} 
+
+.stop-button {
+  
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    left: 400px;
     width: 200px;
     margin: inherit;  
 }
